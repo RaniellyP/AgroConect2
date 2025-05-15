@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/mnt/data/file-OfhQ1nGWFWFoYGh1fXEprIzk');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px; /* Diminuição do padding para reduzir a altura */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px; /* Largura reduzida */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px; /* Diminuição da margem inferior */
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 10px; /* Diminuição da margem entre os grupos */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px; /* Diminuição do padding para reduzir a altura dos campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Diminuição do tamanho da fonte, se necessário */
+}
+
+button {
+    width: 100%;
+    padding: 8px; /* Diminuição do padding para reduzir a altura do botão */
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px; /* Diminuição do tamanho da fonte, se necessário */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.form-group div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}

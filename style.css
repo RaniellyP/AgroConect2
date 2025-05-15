@@ -1,0 +1,136 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Anta", sans-serif;
+}
+
+.nav-itens {
+  list-style: none;
+  display: flex;
+}
+
+.nav-itens > li > a {
+  padding-left: 40px;
+  color: rgb(247, 237, 237);
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Alinhamento para os itens do nav */
+  align-items: center; /* Alinha itens no centro */
+  margin-top: 20px; 
+  padding: 0 20px; /* Adiciona espaçamento horizontal */
+  color: rgb(233, 223, 223);
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 40px;
+  display: flex;
+  align-items: center; /* Alinha o texto e o ícone */
+  color: #ffffff; /* Cor verde */
+  margin-top: 0px; /* Espaço acima */
+}
+
+
+.buttons {
+  display: flex; /* Alinha os botões em linha */
+  gap: 10px; /* Espaçamento entre os botões */
+}
+
+.loguin, .cadastro {
+  padding: 10px 30px; /* Ajuste no padding para botões */
+  font-size: 20px;
+  background-color: #008000;
+  border:0vmax;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 1s; 
+  text-decoration: none;
+}
+
+.loguin:hover {
+  background-color: #32CD32;
+  transition: 1s; 
+}
+
+.cadastro:hover {
+  background-color: #2CD332;
+  transition: 1s; 
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 50px;
+  background-color: aliceblue;
+  color: #202020;
+  width: 400px;
+  height: 550px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(74, 238, 28, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card > img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card > .class1 {
+  font-size: 27px;
+  padding-top: 15px;
+}
+
+.card > .class2 {
+  font-size: 27px;
+  padding-top: 15px;
+  text-align: center;      
+}
+
+.card > .class3 {
+  font-size: 27px;
+  padding-top: 15px;
+  text-align: justify;
+}
+
+.card > p {
+  font-size: 17px;
+  padding: 20px 20px;
+}
+
+.button {
+  font-size: 12px;
+  padding: 10px 10px;
+  border: none;
+  background-color: #008000;
+  color: beige;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+  background-color: #138017;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

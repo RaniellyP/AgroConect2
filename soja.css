@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #007f00; /* Verde escuro */
+    color: white; /* Texto branco no cabeçalho */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* Links no cabeçalho em branco */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1{
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #005f05;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 18px; /* Tamanho do texto */
+    line-height: 1.6;
+    color: #838383;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 500px; /* Todas as imagens terão o mesmo tamanho */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+}
+
+figcaption {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    margin-top: 5px;
+}
+
+ul {
+    margin-left: 40px;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #007f00;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}

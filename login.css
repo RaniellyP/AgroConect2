@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%; /* Garante que o corpo e o HTML ocupem 100% da altura */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background: url('lavourac.jpg') no-repeat center center fixed; /* Insira o caminho para sua imagem aqui */
+    background-size: cover; /* A imagem cobre todo o fundo */
+}
+
+.login-container {
+    background-color: rgba(197, 255, 183, 0.849);
+    padding: 30px; /* Aumentado para melhorar a aparência */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px; /* Ajuste a largura da caixa de login se necessário */
+    text-align: center; /* Centraliza o texto dentro da caixa */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.1s; /* Adiciona uma transição suave */
+}
+
+button:hover {
+    background-color: #45a049; /* Muda a cor ao passar o mouse */
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #1e6320;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
