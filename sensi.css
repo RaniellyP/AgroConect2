@@ -1,0 +1,191 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007f00; /* Verde escuro */
+    color: white; /* Texto branco no cabeçalho */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* Links no cabeçalho em branco */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #005f05;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6; /* Espaçamento entre linhas */
+    color: #797979;
+    margin-bottom: 20px; /* Espaçamento inferior */
+    text-align: justify; /* Alinhar o texto */
+    width: 100%; /* Ocupa toda a largura do contêiner */
+}
+
+img {
+    width: 100%; /* Largura total do contêiner pai */
+    max-width: 800px; /* Tamanho máximo */
+    display: block; /* Evitar espaço extra */
+    margin: 20px auto; /* Centralizar a imagem */
+}
+
+
+p {
+    font-size: 18px; /* Tamanho do texto */
+    line-height: 1.6;
+    color: #797979;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    font-size: 18px;
+    color: #797979;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+    max-width: 800px; /* Todas as imagens terão o mesmo tamanho */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+}
+
+figcaption {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #007f00;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.section a {
+    color: #007f00; /* Verde para links */
+    text-decoration: none;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a seção Satélite Mundial */
+#satelite-mundial {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto 40px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+#satelite-mundial h2 {
+  color: #005f05;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#satelite-mundial p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  text-align: justify;
+  color: #555;
+}
+
+#satelite-mundial a {
+  color: #007f00;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+#satelite-mundial a:hover {
+  color: #32CD32;
+  text-decoration: underline;
+}
+
+#satelite-mundial figure {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#satelite-mundial img.img-texto {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#satelite-mundial figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #777;
+}
