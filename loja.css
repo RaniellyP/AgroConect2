@@ -87,3 +87,45 @@ footer p {
     margin: 0;
     font-size: 16px;
 }
+#contato {
+    background-color: #f9f9f9; /* Fundo claro para destacar a seção */
+    padding: 30px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    text-align: center; /* Centraliza o texto */
+}
+
+#contato h2 {
+    font-size: 24px; /* Tamanho maior para o título */
+    color: #005f05; /* Verde escuro */
+    margin-bottom: 20px; /* Espaço inferior */
+}
+
+#contato p {
+    font-size: 18px; /* Tamanho do texto */
+    color: #555; /* Cor do texto */
+    margin-bottom: 15px; /* Espaço inferior */
+}
+
+#contato ul {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0;
+}
+
+#contato ul li {
+    margin: 10px 0; /* Espaço entre os itens */
+    font-size: 18px; /* Tamanho do texto */
+    color: #333; /* Cor dos itens */
+}
+
+#contato ul li a {
+    color: #007f00; /* Verde escuro para links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Negrito */
+}
+
+#contato ul li a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+    color: #005f05; /* Tom mais escuro ao passar o mouse */
+}
